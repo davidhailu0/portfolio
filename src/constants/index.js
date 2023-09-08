@@ -1,7 +1,7 @@
 import {
   frontend,
   backend,
-  ux,
+  mobile,
   prototyping,
   javascript,
   typescript,
@@ -17,14 +17,12 @@ import {
   postgresql,
   rubyrails,
   graphql,
-  komikult,
-  leaderboard,
-  math,
-  movie,
-  nyeusi,
-  space,
+  ecommerce,
+  rent,
+  booking,
+  bus,
+  employee,
   coverhunt,
-  dcc,
   kelhel,
   microverse,
 } from '../assets';
@@ -54,8 +52,8 @@ const services = [
     icon: backend,
   },
   {
-    title: 'UI/UX Design',
-    icon: ux,
+    title: 'Mobile App Developer',
+    icon: mobile,
   },
   {
     title: 'Software Prototyping',
@@ -124,43 +122,77 @@ const technologies = [
 
 const experiences = [
   {
-    title: 'Front-End Developer',
-    company_name: 'Cover Hunt',
+    title: 'Mobile App Developer Intern',
+    company_name: 'United Trucking Driver',
     icon: coverhunt,
     iconBg: '#333333',
-    date: 'Aug 2021 - Feb 2022',
+    date: 'March 2021 - May 2021',
   },
   {
-    title: 'Mentor (Volunteer)',
-    company_name: 'Microverse',
+    title: 'Software Engineer Intern',
+    company_name: 'Zhewu Tech',
     icon: microverse,
     iconBg: '#333333',
-    date: 'Mar 2022 - May 2022',
-  },
-  {
-    title: 'Junior Software Engineer',
-    company_name: 'Kelhel',
-    icon: kelhel,
-    iconBg: '#333333',
-    date: 'May 2022 - Oct 2022',
+    date: 'Febraury 2022 - April 2022',
   },
   {
     title: 'Full Stack Developer',
-    company_name: 'Diversity Cyber Council',
-    icon: dcc,
+    company_name: 'Beacon Business Group',
+    icon: kelhel,
     iconBg: '#333333',
-    date: 'Sep 2022 - Present',
-  },
+    date: 'August 2022 - June 2023',
+  }
 ];
 
 const projects = [
   {
     id: 'project-1',
-    name: 'KomiKult',
-    description: 'A comic characters list app that displays Marvel characters.',
+    name: 'E-Commerce App',
+    description: 'An E-Commerce Web App that show list of items',
     tags: [
       {
         name: 'react',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'Redux',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'MUI',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: ecommerce,
+    repo: 'git@github.com:davidhailu0/Ecommerce-App.git',
+    demo: 'https://verdant-druid-9504e4.netlify.app',
+  },
+  {
+    id: 'project-2',
+    name: 'Home Renting Website',
+    description:
+      'A Website where you can rent and advertise your house for rent',
+    tags: [
+      {
+        name: 'PHP',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'Ajax',
+        color: 'green-text-gradient',
+      },
+    ],
+    image: rent,
+    repo: 'git@github.com:davidhailu0/Renting_Website.git',
+    demo: 'https://rentingwebsite.000webhostapp.com/',
+  },
+  {
+    id: 'project-3',
+    name: 'Bus Ticket Booking',
+    description: 'An Web App that can let you book ticket online',
+    tags: [
+      {
+        name: 'nextjs',
         color: 'blue-text-gradient',
       },
       {
@@ -168,63 +200,18 @@ const projects = [
         color: 'green-text-gradient',
       },
       {
-        name: 'tailwind',
+        name: 'node.js',
         color: 'pink-text-gradient',
       },
     ],
-    image: komikult,
-    repo: 'https://github.com/shaqdeff/KomiKult',
-    demo: 'https://shaqdeff.github.io/KomiKult/',
-  },
-  {
-    id: 'project-2',
-    name: 'Leaderboard',
-    description:
-      'A leaderboard list app that displays scores submitted by different players.',
-    tags: [
-      {
-        name: 'react',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'restapi',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'scss',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: leaderboard,
-    repo: 'https://github.com/shaqdeff/Leaderboard',
-    demo: 'https://shaqdeff.github.io/Leaderboard/',
-  },
-  {
-    id: 'project-3',
-    name: 'Math Magicians',
-    description: 'This is a single-page calculator app built with React',
-    tags: [
-      {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'supabase',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'css',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: math,
-    repo: 'https://github.com/shaqdeff/Math-Magicians',
-    demo: 'https://inspiring-medovik-37d3b3.netlify.app/',
+    image: booking,
+    repo: 'git@github.com:davidhailu0/busticket-client.git',
+    demo: 'https://bus-client.onrender.com/',
   },
   {
     id: 'project-4',
-    name: 'Movie Metro',
-    description: `A single-page application that allows users to search for any movie or show's ratings and its details.`,
+    name: 'Bus Company Manager',
+    description: `A Web application that allows trip managers to control different information like bus, trip and employee`,
     tags: [
       {
         name: 'nextjs',
@@ -239,32 +226,32 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: movie,
-    repo: 'https://github.com/shaqdeff/Movie-Metro',
-    demo: 'https://movie-metro.netlify.app/',
+    image: bus,
+    repo: 'git@github.com:davidhailu0/busticket-bus.git',
+    demo: 'https://bus-company-2jel.onrender.com',
   },
   {
     id: 'project-5',
-    name: 'Nyeusi Fest Site',
+    name: 'Employee Management App',
     description:
-      'This is a demo concert website for a music festival called Nyeusi.',
+      'This web app performs the basic CRUD operations',
     tags: [
       {
         name: 'nextjs',
         color: 'blue-text-gradient',
       },
       {
-        name: 'supabase',
+        name: 'tailwind.css',
         color: 'green-text-gradient',
       },
       {
-        name: 'css',
+        name: 'firebase',
         color: 'pink-text-gradient',
       },
     ],
-    image: nyeusi,
-    repo: 'https://github.com/shaqdeff/Nyeusi-Fest-Site',
-    demo: 'https://shaqdeff.github.io/Nyeusi-Fest-Site/',
+    image: employee,
+    repo: 'git@github.com:davidhailu0/employee_management.git',
+    demo: 'https://idyllic-kashata-ee112a.netlify.app',
   },
 ];
 

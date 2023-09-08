@@ -6,10 +6,10 @@ import worldmap from './backgrounds/world-map.png';
 import logo from './logo/logo-black.png';
 import logotext from './logo/logo-text-black.png';
 
-import shaq from './personal/shaq.png';
+import dawit from './personal/dawit.png';
 
 import backend from './icons/backend.png';
-import ux from './icons/ux.png';
+import mobile from './icons/mobile.png';
 import frontend from './icons/frontend.png';
 import prototyping from './icons/prototyping.png';
 import github from './icons/github.png';
@@ -43,12 +43,11 @@ import dcc from './company/dcc.png';
 import kelhel from './company/kelhel.png';
 import microverse from './company/microverse.png';
 
-import komikult from './projects/komikult.png';
-import leaderboard from './projects/leaderboard.png';
-import math from './projects/math-magicians.png';
-import movie from './projects/movie-metro.png';
-import nyeusi from './projects/nyeusi.png';
-import space from './projects/space-hub.png';
+import ecommerce from './projects/ecommerce-modified.png';
+import booking from './projects/booking-page-modified.png';
+import bus from './projects/bus-screen-modified.png';
+import employee from './projects/employee-management.png';
+import rent from './projects/renting-modified.png';
 
 export {
   bwmap,
@@ -57,9 +56,9 @@ export {
   worldmap,
   logo,
   logotext,
-  shaq,
+  dawit,
   backend,
-  ux,
+  mobile,
   frontend,
   prototyping,
   github,
@@ -86,12 +85,11 @@ export {
   redux,
   tailwind,
   typescript,
-  komikult,
-  leaderboard,
-  math,
-  movie,
-  nyeusi,
-  space,
+  booking,
+  rent,
+  bus,
+  employee,
+  ecommerce,
   coverhunt,
   dcc,
   kelhel,
